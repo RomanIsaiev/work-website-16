@@ -182,6 +182,8 @@ p {
   max-width: 320px;
   width: 100%;
   padding: 14px;
+  margin-left: auto;
+  margin-right: auto;
 
   border: none;
 
