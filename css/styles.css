@@ -162,9 +162,16 @@ p {
   line-height: normal;
 }
 
+.header-list .list-item:nth-child(2) {
+  max-width: 270px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .header-list .list-item span {
   color: #cca98d;
   text-transform: uppercase;
+  font-weight: 600;
 }
 
 .header-button {
@@ -212,7 +219,7 @@ p {
 
 .header-sale-mark {
   position: absolute;
-  top: 428px;
+  top: 448px;
   left: 10px;
 }
 
@@ -461,6 +468,27 @@ p {
   max-width: 261px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.sect-one-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sect-one-list .list-item {
+  color: #101010;
+  text-align: center;
+  font-family: Futura PT;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: normal;
+}
+
+.sect-one-list .list-item span {
+  color: #cca98d;
+  text-transform: uppercase;
 }
 
 /* section-two */
