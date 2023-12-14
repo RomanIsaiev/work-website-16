@@ -705,6 +705,7 @@ p {
   top: -25px;
   left: 5px;
 }
+
 .border-container::before {
   content: '';
   position: absolute;
