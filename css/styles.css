@@ -429,6 +429,16 @@ p {
   line-height: 120%; /* 18px */
 }
 
+.section-one .wrapper-text {
+  color: #101010;
+  text-align: center;
+  font-family: Futura PT;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 18px */
+}
+
 .section-one .wrapper .wrapper-accent-text {
   color: #101010;
   text-align: center;
@@ -474,6 +484,8 @@ p {
   display: flex;
   flex-direction: column;
   gap: 10px;
+
+  margin-bottom: 30px;
 }
 
 .sect-one-list .list-item {
